@@ -5,4 +5,7 @@ Created on Fri Jan 14 12:10:11 2022
 
 @author: fatimagarcia
 """
+#INICIO PARA LA BASE DE DATOS CON CSV
+import csv
+import pandas as pd
 
