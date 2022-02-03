@@ -33,5 +33,7 @@ class Libro(Autor):# en los parentisis tenemos la herencia de estos dos objetos
     def setPrecio(self,newprecio)   :#creo una funcion set que me cambie el precio del libro automaticamente
      
          self.precio = newprecio
+         
+         
 
     

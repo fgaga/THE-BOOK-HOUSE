@@ -16,3 +16,7 @@ class Cliente():
     def setNewdireccion(self,Newdireccion):
         self.direccion= Newdireccion
         
+        
+    def compra ():
+        pass
+        
