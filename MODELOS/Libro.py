@@ -6,9 +6,7 @@ Created on Wed Dec 29 12:54:43 2021
 @author: fatimagarcia y luisbravo
 
 """
-
-Libro.Autor()
-Libro.Libro()
+ 
 class Autor():  
     def __init__(self,nombre,info,ideautor,foto):
         self.nombre = nombre

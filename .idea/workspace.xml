@@ -32,7 +32,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RunManager">
-    <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python">
       <module name="THE-BOOK-HOUSE" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -64,6 +64,7 @@
       <option name="presentableId" value="Default" />
       <updated>1642171189101</updated>
       <workItem from="1642171191279" duration="1887000" />
+      <workItem from="1643896159816" duration="1501000" />
     </task>
     <servers />
   </component>
