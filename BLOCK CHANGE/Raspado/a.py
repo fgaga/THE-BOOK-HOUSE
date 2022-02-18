@@ -10,9 +10,8 @@ import scrapy
 import pathlib
 import sys
 from scrapy.crawler import CrawlerProcess
-modelos=str(pathlib.Path(__file__).parent.parent.parent.absolute())+'\\MODELOS'
-sys.path.append(modelos)
-from libro import Libro  
+modelos=str(pathlib.Path(__file__).parent.parent.parent.absolute())+'//MODELOS'
+sys.path.append(modelos) 
  
 
 class ScrapyLibros (scrapy.Spider): 
@@ -101,13 +100,17 @@ for a in autores:
     urllib.request.urlretrieve(a[len(a)-1], "Fotos\local-"+str(i)+".jpg")
     i+=1
  except:
-     print('*'*50)
+     print('-'*50)
+     print(a)
+     print('-'*50)
 for a in libros: 
  try:
     print(a)
     urllib.request.urlretrieve(a[len(a)-1], "Fotos\local-"+str(i)+".jpg")
     i+=1
  except:
-     print('*'*50)
+     print('-'*50)
+     print(a)
+     print('-'*50)
  
       
