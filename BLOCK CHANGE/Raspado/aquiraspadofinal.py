@@ -120,7 +120,7 @@ def cargar(score):
         score = json.load(f)
         return score
     
- 
+""" 
 i=0 
 for a in autores:  
      
@@ -147,3 +147,6 @@ for a in libros:
      print('*'*50)
      print(a) 
      print('*'*50) 
+     
+
+"""
