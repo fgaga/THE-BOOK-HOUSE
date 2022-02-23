@@ -6,7 +6,7 @@ Created on Wed Dec 29 12:54:43 2021
 @author: fatimagarcia y luisbravo
 
 """
- 
+import json
 class Autor():  
     def __init__(self,nombre,idautor):
         self.nombre = nombre
@@ -19,6 +19,14 @@ class Autor():
         
     def setFoto(self,newfoto):
         self.foto = newfoto
+        
+    def toJson(self):
+        json=""
+        return json
+    def mostrarAutor(self):
+        print('*'*50)
+        print(self.nombre) 
+        print('*'*50)
         
 class FichaTecnica():
     def __init__(self): 

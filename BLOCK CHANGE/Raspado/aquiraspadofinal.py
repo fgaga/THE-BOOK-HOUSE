@@ -18,7 +18,7 @@ from Libro import Libro
  
 class ScrapyLibros (scrapy.Spider): 
     name= 'casalibro'
-    paginas=1 
+    paginas=5 
     def start_requests(self): 
         base='https://www.casadellibro.com/libros/' 
         secciones=['cocina','historia-local-de-espana','ciencias-humanas/religion','ciencias-politicas-y-sociales/politica','musica'] 
@@ -119,8 +119,7 @@ def cargar(score):
     with open("file.json", 'r') as f:
         score = json.load(f)
         return score
-    
-""" 
+     
 i=0 
 for a in autores:  
      
@@ -147,6 +146,4 @@ for a in libros:
      print('*'*50)
      print(a) 
      print('*'*50) 
-     
-
-"""
+      
